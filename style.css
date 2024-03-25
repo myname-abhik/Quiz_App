@@ -1,0 +1,113 @@
+*
+{
+    margin: 0 ;
+    padding: 0;
+}
+body
+{
+    overflow: hidden;
+}
+.maincontainer
+{
+    background: #cec2c2;
+    width: 1550px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes1
+{
+    width: 80%;
+    height: fit-content;
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border: 1px solid rgb(2, 17, 1) ;
+    border-radius: 20px;
+    background: #e6dfdf;
+    overflow: hidden;
+}
+.boxes2
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.box21
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    
+    /* background-color: green; */
+    text-align: left;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.boxes3
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /* background-color: rgb(128, 53, 0); */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+#option
+{ width: 90%;
+     margin-top:20px ;
+     display: flex;
+     align-items: center;
+    height: 15%;
+    border-radius: 10px;
+    background: rgb(216, 205, 205);
+    text-align: left;
+    padding-left: 40px;
+}
+label
+{
+    margin-left: 20px;
+}
+.boxes4,.boxes5,.boxes411
+{width: fit-content;
+    height: fit-content;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    background: rgb(7, 18, 226);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1ecec;
+    margin-top:20px ;
+    transition: all 1s;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+.boxes4:hover {
+    background-color: rgba(7, 18, 226, 0.765);
+  }
+  .boxes4:active {
+    background-color:  rgba(7, 18, 226, 0.863);;
+    box-shadow: 0 5px #302a2a;
+    transform: translateY(4px);
+  }
