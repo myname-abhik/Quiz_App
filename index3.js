@@ -11,7 +11,7 @@ let submit = document.querySelector('.boxes5')
 let car = [
   {
     option0:
-      "Which data structure is typically used for implementing a Last-In-First-Out (LIFO) behavior?",
+      "Whichh data structure is typically used for implementing a Last-In-First-Out (LIFO) behavior?",
     option1: "Queue",
     option2: "Stack",
     option3: "Linked List",
